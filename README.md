@@ -10,6 +10,7 @@ This has been tested with an apple watch series 5 and iphone X jailbroken with c
 *********** ATTENTION ***********
 
 THIS TWEAK WILL WORK ONLY ON APPLE WATCHES THAT WERE BOUGHT FROM ECG-SUPPORTED COUNTRIES!
+EDIT: AND ALSO UNSUPPORTED COUNTRIES AS OF iOS 13.5 & watchOS 6.2.5/6
 
 **** This tweak requires REBOOT after installation!
 
