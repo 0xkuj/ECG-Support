@@ -1,0 +1,13 @@
+#!/bin/bash
+#Created by: 0xkuj
+
+ORIG_FILE="//var/mobile/Library/Preferences/com.apple.private.health.heart-rhythm"
+ORIG_EXT="plist"
+ECG_SUPPORT_FILE_BK="bk"
+
+if [ -f $ORIG_FILE.$ECG_SUPPORT_FILE_BK ]; then
+    echo "Moving back original file" 
+    mv $ORIG_FILE.$ECG_SUPPORT_FILE_BK $ORIG_FILE.$ORIG_EXT
+else
+    echo "Backup file was not found, The file was not deleted."
+fi

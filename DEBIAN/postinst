@@ -1,0 +1,16 @@
+#!/bin/bash
+#Created by: 0xkuj
+
+ORIG_FILE="//var/mobile/Library/Preferences/com.apple.private.health.heart-rhythm"
+ORIG_EXT="plist"
+ECG_SUPPORT_FILE_BK="bk"
+ECG_SUPPORT_FILE=///ECGfile/com.apple.private.health.heart-rhythm.plist
+
+if [ -f $ORIG_FILE.$ORIG_EXT ]; then
+    echo "Backing up $ORIG_FILE.$ORIG_EXT ---> $ORIG_FILE.$ECG_SUPPORT_FILE_BK"
+    cp $ORIG_FILE.$ORIG_EXT $ORIG_FILE.$ECG_SUPPORT_FILE_BK
+fi
+
+echo "Copying ECG File into /var/mobile/Library/Preferences/ ........"
+cp ///ECGfile/com.apple.private.health.heart-rhythm.plist //var/mobile/Library/Preferences/
+echo "Done! Please Reboot & Re-jailbreak your device before pairing your Apple watch again!"

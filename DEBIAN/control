@@ -1,0 +1,9 @@
+Package: com.0xkuj.ECGSupport
+Version: 0.0.1
+Architecture: iphoneos-arm
+Section: Scripting
+Maintainer: 0xkuj
+Name: ECG Support
+Author: 0xkuj
+Description: Enable ECG for unsupported countries.
+Depends:firmware (>= 12)
