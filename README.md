@@ -69,4 +69,4 @@ List of countries that are ECG-supported according to Apple official information
 
 Tested on: Apple Watch 5 + iPhone X on iOS 13.2.3
 
-Credits: Special thanks to hirakujira who found the values in the plist file
+Credits: Special thanks to hirakujira who found the values in the plist file, original plist file can be found here: https://gist.github.com/x43x61x69/0a9dd6e134c5c4a7ce39c9aab5639727
